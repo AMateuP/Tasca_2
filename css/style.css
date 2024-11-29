@@ -1,0 +1,12 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: #f9f9fb;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  margin-left: 70px;
+}
