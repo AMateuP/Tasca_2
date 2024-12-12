@@ -21,3 +21,10 @@ nav a {
 h1{
   font-size: 28px;
 }
+
+.carusel img{
+  background-size: cover;
+  width: 197px;
+  height: 225px;
+  border-radius: 5px;
+}
