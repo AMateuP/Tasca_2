@@ -35,6 +35,15 @@ nav a {
   width: 573px;
   height: 358px;
   object-fit: cover;
+  z-index: 1;
+}
+
+.overlay_img {
+  border-radius: 10px;
+  position: absolute;
+  width: 573px;
+  height: 358px;
+  background-color: rgba(27, 0, 66,0.6);
   z-index: 2;
 }
 
@@ -47,22 +56,13 @@ nav a {
   z-index: 2;
 }
 
-.overlay_img {
-  border-radius: 10px;
-  position: absolute;
-  width: 573px;
-  height: 358px;
-  background-color: rgba(27, 0, 66,0.6);
-  z-index: 3;
-}
-
 .content_img {
-  width: 573;
-  height: 358px;
+  width: 496px;
+  height: 275px;
   line-height: 2;
   font-family: 'Open Sans', sans-serif;
   color: #FFFFFF;
-  z-index: 4;
+  z-index: 3;
   padding: 20px;
 }
 
