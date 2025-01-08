@@ -1,4 +1,5 @@
 body {
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #f9f9fb;
@@ -15,6 +16,13 @@ nav a {
   position: relative;
   width: 773px;
   height: 484px;
+  display: flex;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.popular{
+  position: relative;
   display: flex;
   color: white;
   font-family: Arial, sans-serif;
@@ -77,5 +85,25 @@ nav a {
 }
 
 h1{
-  font-size: 28px;
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2.25rem;
+}
+
+h3{
+  font-size: 1.75rem;
+}
+
+h4{
+  font-size: 1.125rem;
+}
+
+h5{
+  font-size: 1rem;  
+}
+
+h6{
+  font-size: 0.875rem;
 }
