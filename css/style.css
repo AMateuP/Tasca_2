@@ -46,6 +46,14 @@ nav a {
   z-index: 1;
 }
 
+.image_r {
+  position: absolute;
+  width: 584px;
+  height: 358px;
+  object-fit: cover;
+  z-index: 1;
+}
+
 .overlay_img {
   border-radius: 10px;
   position: absolute;
@@ -106,4 +114,8 @@ h5{
 
 h6{
   font-size: 0.875rem;
+}
+
+span{
+  color: #9B9B9B;
 }
