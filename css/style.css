@@ -18,14 +18,14 @@ nav a {
   height: 484px;
   display: flex;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .popular{
   position: relative;
   display: flex;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .background_image {
@@ -90,6 +90,14 @@ nav a {
   color: #FFFFFF;
   z-index: 3;
   padding: 20px;
+}
+
+.suggest{
+  width: 573px;
+  height: 358px;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: 5px;
 }
 
 h1{
