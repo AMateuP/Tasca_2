@@ -28,6 +28,15 @@ nav a {
   font-family: 'Open Sans', sans-serif;
 }
 
+.bg_Withe {
+  background-color: #FFFFFF;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .background_image {
   border-radius: 10px;
   position: absolute;
@@ -40,6 +49,14 @@ nav a {
 .image {
   border-radius: 10px;
   position: absolute;
+  width: 573px;
+  height: 358px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.img_new {
+  border-radius: 10px;
   width: 573px;
   height: 358px;
   object-fit: cover;
@@ -102,18 +119,22 @@ nav a {
 
 h1{
   font-size: 3rem;
+  font-weight: 600;
 }
 
 h2{
   font-size: 2.25rem;
+  font-weight: 600;
 }
 
 h3{
   font-size: 1.75rem;
+  font-weight: 600;
 }
 
 h4{
   font-size: 1.125rem;
+  font-weight: 600;
 }
 
 h5{
@@ -125,5 +146,38 @@ h6{
 }
 
 span{
+  color: #9B9B9B;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+  --bs-btn-color: #FF5480;
+  --bs-btn-border-color: #FF5480;
+  --bs-btn-hover-bg: #FF5480;
+  --bs-btn-hover-border-color: #FF5480;
+  --bs-btn-active-bg: #FF5480;
+  --bs-btn-active-border-color: #FF5480;
+  --bs-btn-disabled-color: #FF5480;
+  --bs-btn-disabled-border-color: #FF5480;
+}
+
+footer {
+  background-color: #fff; 
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  font-size: 14px;
+}
+
+.footer_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.footer_text {
+  font-size: 12px;
   color: #9B9B9B;
 }
